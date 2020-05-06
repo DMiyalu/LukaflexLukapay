@@ -1,0 +1,29 @@
+
+        form{
+            padding: 0.3%;
+            position:relative;
+        }
+        input{
+            border: 1px solid #909090;
+            border-radius: 235px;
+            width: 157px;
+            height: 25px;
+            padding-left: 6px;
+            &:focus{
+                border-color: black;
+                
+            }
+
+        }
+        input:focus+i{
+            color: black;
+            font-size: 16px;
+        }
+        i{
+            position: relative;
+            top: 19%;
+            left: 75%;
+            bottom: 2%;
+            color: #909090;
+            transition: .5s;
+        }

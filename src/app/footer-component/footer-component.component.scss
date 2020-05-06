@@ -1,0 +1,23 @@
+footer{
+    display: flex;
+    .divTexte{
+        .texte{
+            font-family: Roboto;
+            font-size: 48px;
+            font-weight:200;
+            padding: 15% 0 0 15%;
+        }
+
+    }
+    .divImg{
+        display: flex;
+        
+    }
+    position:absolute;
+}
+.copyright{
+    position: relative;
+    text-align: center;
+    top: 600px;
+
+}
